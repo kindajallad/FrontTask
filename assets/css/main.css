@@ -39,3 +39,22 @@ a {
   background-color: #ffff;
   padding: 32px;
 }
+.menu {
+  display: none;
+}
+/* media query */
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  .list {
+    display: none;
+  }
+  .icon-hidden {
+    display: none;
+  }
+  .container {
+    width: calc(100% - 40px);
+  }
+  .menu {
+    display: block;
+  }
+}
