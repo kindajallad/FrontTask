@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: calc(100% - 330px);
+  margin: auto;
+}
+/*header*/
+.list ul {
+  display: flex;
+  gap: 60px;
+}
+.list a {
+  color: #3a3845;
+}
+
+.icons ul {
+  display: flex;
+  gap: 24px;
+}
+.icons a {
+  color: #595667;
+}
+.header {
+  background-color: #ffff;
+  padding: 32px;
+}
